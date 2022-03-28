@@ -9,3 +9,4 @@ def convert_name_extract(list_in: list) -> list:
 
 result  = convert_name_extract(my_list)
 print(result)
+
