@@ -1,7 +1,7 @@
 def convert(list_in: list) -> str:
  str_out=[]
  for i in list_in:
-     temp_list =[]
+     temp_list = []
      if i.isdigit():
          temp_list.append(i.zfill(2))
          str_out.append(''.join(temp_list))

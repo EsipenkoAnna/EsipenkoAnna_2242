@@ -44,7 +44,7 @@ print(result_3)
 
 def check_five_max_elements(list_in: list) -> list:
     list_in.sort()
-    list_out =list_in [ :5 ]
+    list_out = list_in[ :5 ]
     return list_out
 
 
